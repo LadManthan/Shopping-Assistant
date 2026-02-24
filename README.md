@@ -15,17 +15,17 @@ graph.py                # Graph-related utilities
 requirements.txt        # Python dependencies
 
 agents/
-  analyzer.py           # Product analysis agent
-  comperator.py         # Product comparison agent
+|---> analyzer.py           # Product analysis agent
+|---> comperator.py         # Product comparison agent
 
 models/
-  schemas.py            # Data schemas and models
+|---> schemas.py            # Data schemas and models
 
 services/
   ranking.py            # Product ranking service
 
 tools/
-  rainforest_tool.py    # Rainforest API integration
+|---> rainforest_tool.py    # Rainforest API integration
 ```
 
 ## Getting Started
