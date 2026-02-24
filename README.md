@@ -14,17 +14,17 @@ app.py                  # Main application entry point
 graph.py                # Graph-related utilities
 requirements.txt        # Python dependencies
 
-agents/
+agents
 |---> analyzer.py           # Product analysis agent
 |---> comperator.py         # Product comparison agent
 
-models/
+models
 |---> schemas.py            # Data schemas and models
 
-services/
-  ranking.py            # Product ranking service
+services
+|---> ranking.py            # Product ranking service
 
-tools/
+tools
 |---> rainforest_tool.py    # Rainforest API integration
 ```
 
@@ -58,9 +58,3 @@ Run the main application:
 ```sh
 python app.py
 ```
-
-## Contributing
-Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
-
-## License
-This project is licensed under the MIT License.
